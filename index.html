@@ -102,18 +102,36 @@ https://templatemo.com/tm-528-elegance
         </video>
 
         <div id="fullpage" class="fullpage-default">
-
-            <div class="section animated-row" data-section="slide01">
+            <div class="section animated-row " data-section="slide01">
                 <div class="section-inner">
-                    <div class="welcome-box">
-                        <span class="welcome-first animate" data-animate="fadeInUp">Buscas una web <strong>a un precio justo?</strong> </span>
-                        <div style="width:300px; height:150px; overflow:hidden; margin:0 auto;">
-                            <img src="images/solopolar-unscreen.gif" alt="Logo"
-                                style="width:100%; height:100%; object-fit:cover; display:block;">
+
+                    <div class="row">
+                        <div class="welcome-box col-md-6">
+                            <span class="welcome-first animate" data-animate="fadeInUp">Buscas una web <strong>a un
+                                    precio
+                                    justo?</strong> </span>
+                            <div style="width:300px; height:150px; overflow:hidden; margin:0 auto;">
+                                <img src="images/solopolar-unscreen.gif" alt="Logo"
+                                    style="width:100%; height:100%; object-fit:cover; display:block;">
+                            </div>
+
                         </div>
-                        <div class="scroll-down next-section animate data-animate=fadeInUp"><img
-                                src="images/mouse-scroll.png" alt=""><span>Desliza hacia abajo</span></div>
+                        <div class="welcome-box col-md-6">
+                            <span class="welcome-second animate" data-animate="fadeInUp">¡PolarWEB te ofrece
+                                soluciones digitales personalizadas!</span>
+                            <p class="animate" data-animate="fadeInUp">Creamos sitios web profesionales para
+                                pequeños y
+                                medianos negocios, con un enfoque en la calidad y la satisfacción del cliente.</p>
+                            <a href="#slide07" class="btn btn-primary animate" id="contact-btn2"
+                                data-animate="fadeInUp">Contáctanos</a>
+                            <a href="#slide03" class="btn btn-primary animate" id="contact-btn2"
+                                data-animate="fadeInUp">Servicios</a>
+                        </div>
                     </div>
+                </div>
+
+                <div class="scroll-down next-section animate data-animate=fadeInUp"><img src="images/mouse-scroll.png"
+                        alt=""><span>Desliza hacia abajo</span>
                 </div>
             </div>
             <!--Sobre mi-->
@@ -148,12 +166,12 @@ https://templatemo.com/tm-528-elegance
                                                 </div>
 
                                                 <div class="item animate" data-animate="fadeInUp">
-                                                   
+
                                                     <div class="counter-box">
                                                         <i class="fa-regular fa-face-smile fa-2x"></i><span
                                                             class="count-number">1</span> Clientes satisfechos
                                                     </div>
-                                                   
+
                                                 </div>
 
 
@@ -178,7 +196,7 @@ https://templatemo.com/tm-528-elegance
                     <div class="row justify-content-center">
                         <div class="col-md-8 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Servicios</span>
+                                <span>Da click y enterate</span>
                                 <h2>¿Qué hacemos?</h2>
                             </div>
                             <div class="services-section">
@@ -420,30 +438,32 @@ https://templatemo.com/tm-528-elegance
                                 <!--carrusel-->
                                 <div class="gallery-list owl-carousel">
                                     <a href="https://braulioc8.github.io/Fashion-Genius/index.html">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/proyecto_genius_fashion.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Fashion Genius </h4>
-                                                <p>Fashion Genius es una empresa de servicios textiles emergentes, dedicada a la creación de textiles personalizados de la más alta calidad.</p>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/proyecto_genius_fashion.png" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>Fashion Genius </h4>
+                                                    <p>Fashion Genius es una empresa de servicios textiles emergentes,
+                                                        dedicada a la creación de textiles personalizados de la más alta
+                                                        calidad.</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                     </a>
-                                     <a href="#slide07">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/profile-01.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Estamos en busca de tu proyecto</h4>
-                                                <p>Desarrollamos proyectos de calidad a un precio competente.</p>
+                                    <a href="#slide07">
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/profile-01.png" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>Estamos en busca de tu proyecto</h4>
+                                                    <p>Desarrollamos proyectos de calidad a un precio competente.</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                     </a>
                                 </div>
 
@@ -530,7 +550,7 @@ https://templatemo.com/tm-528-elegance
                                                 <textarea class="form-control" name="mensaje" id="message" required
                                                     placeholder="Mensaje"></textarea>
                                             </div>
-                                            <button class="btn" type="submit">Envíar</button>
+                                            <button class="btn" id="btn-final" type="submit">Envíar</button>
                                         </form>
                                         <div id="form-messages" class="mt-3"></div>
                                     </div>
@@ -584,7 +604,7 @@ https://templatemo.com/tm-528-elegance
                 $('#serviceModalBody').html('<p>' + detail + '</p>');
                 $('#serviceModal').modal('show');
             });
-            $('.btn').css('cursor', 'pointer').on('click', function () {
+            $('#btn-final').css('cursor', 'pointer').on('click', function () {
                 $('#serviceModalLabel').text('Tu mensaje se envió con éxito');
                 $('#serviceModalBody').html('<p>Gracias por contactarnos. Nos pondremos en contacto contigo pronto.</p>');
                 $('#serviceModal').modal('show');

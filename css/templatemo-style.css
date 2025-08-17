@@ -25,6 +25,15 @@ CSS SITEMAP >>>>
 01. GENERAL CSS
 ================================================*/
 
+.solo-pc {
+      display: block;
+    }
+    @media (max-width: 768px) {
+      .solo-pc {
+        display: none;
+      }
+    }
+
 html,
 body {
   -webkit-font-smoothing: antialiased;
